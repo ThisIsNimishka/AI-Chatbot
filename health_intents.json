@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Hey! How can I assist you today?"]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Goodbye", "Bye", "See you later", "Take care"],
+      "responses": ["Goodbye! Take care.", "Bye! Have a great day.", "See you later! Take care."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Appreciate it", "Thank you very much"],
+      "responses": ["You're welcome!", "Happy to help!", "No problem!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "What can you do", "Assistance"],
+      "responses": ["I can assist you with various healthcare services such as appointment scheduling, medication management, symptom assessment, and general health information. How can I assist you today?"]
+    },
+    {
+      "tag": "appointment",
+      "patterns": ["Schedule an appointment", "I need to see a doctor", "Book an appointment"],
+      "responses": ["Sure, let's get you scheduled. What is the reason for your appointment? For example, are you experiencing specific symptoms or following up on a previous condition?", "Of course, when would you like to schedule the appointment for? Please provide your preferred date and time.", "Great, let's set up your appointment. Do you have a specific healthcare provider in mind or any preferences for the appointment?"]
+    },
+    {
+      "tag": "medication",
+      "patterns": ["Medication reminder", "Remind me to take my meds", "Medication schedule"],
+      "responses": ["Sure, I can help with that. What medication do you need reminders for, and at what times? For example, 'Remind me to take my blood pressure medication at 8:00 AM and 8:00 PM.'", "Of course, I can set up medication reminders for you. When do you need to take your medication? Please specify the medication names and the corresponding dosages.", "Absolutely, let's manage your medication schedule. What medications are you taking and when do you need to take them?"]
+    },
+    {
+      "tag": "general_health",
+      "patterns": ["Health tips", "How to stay healthy", "General health information"],
+      "responses": ["Here are some general health tips: Eat a balanced diet with plenty of fruits and vegetables, engage in regular physical activity, aim for at least 7-8 hours of sleep per night, manage stress through relaxation techniques or mindfulness, and stay hydrated by drinking plenty of water throughout the day."]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": ["I'm not feeling well", "I have some symptoms", "What should I do if I'm sick"],
+      "responses": ["I'm sorry to hear that. Can you please describe your symptoms? Providing details such as the type of symptoms, their severity, and how long you've been experiencing them will help me better understand your situation and provide appropriate guidance.", "It's important to address your symptoms. Can you tell me more about what you're experiencing? Include information such as the specific symptoms you're feeling, any recent changes in your health, and any factors that may have contributed to your symptoms.", "I understand. Please tell me about your symptoms so I can better assist you. Be as detailed as possible, including any relevant medical history or recent events that may be related to your current condition."]
+    },
+    {
+      "tag": "emergency",
+      "patterns": ["Emergency", "I need urgent help", "Call emergency services"],
+      "responses": ["If you are experiencing a medical emergency, please dial emergency services immediately by calling 911 or your local emergency number. Your health and safety are our top priorities.", "In case of a medical emergency, please call emergency services right away. If you're unsure whether your situation constitutes an emergency, it's better to err on the side of caution and seek immediate medical attention. Your well-being is paramount."]
+    },
+    {
+      "tag": "insurance",
+      "patterns": ["Insurance coverage", "Does my insurance cover this?", "What does my insurance plan include?"],
+      "responses": ["To check your insurance coverage, please provide me with your insurance information including the name of your insurance provider and your policy number. I can then assist you in verifying your coverage for the specific service or procedure you're inquiring about."]
+    },
+    {
+      "tag": "prescription",
+      "patterns": ["Refill prescription", "Renew medication", "Order prescription"],
+      "responses": ["Sure, I can assist you with that. Could you please provide the name of the medication and your pharmacy details?"]
+    },
+    {
+      "tag": "lab_results",
+      "patterns": ["Check lab results", "View test results", "Lab report"],
+      "responses": ["To access your lab results, please provide me with your patient ID or the date of your lab test. I'll then retrieve the results for you."]
+    },
+    {
+      "tag": "diet_nutrition",
+      "patterns": ["Healthy diet", "Nutritional advice", "Diet plan"],
+      "responses": ["Eating a balanced diet is crucial for maintaining good health. I can provide you with personalized nutritional advice and help you create a diet plan tailored to your needs. Would you like to discuss your dietary goals and preferences?"]
+    },
+    {
+      "tag": "exercise",
+      "patterns": ["Exercise recommendations", "Workout suggestions", "Physical activity"],
+      "responses": ["Regular exercise is important for overall health. I can recommend various types of exercises and provide you with personalized workout suggestions based on your fitness level and goals. Let's get started on a fitness plan that works for you!"]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": ["Mental health support", "Counseling services", "Stress management"],
+      "responses": ["Taking care of your mental health is just as important as your physical health. I can provide resources for counseling services, stress management techniques, and tips for improving your overall well-being. Remember, it's okay to seek help when you need it."]
+    },
+    {
+      "tag": "follow_up",
+      "patterns": ["Follow-up appointment", "Next appointment", "Check progress"],
+      "responses": ["It's important to stay on top of your healthcare. Let's schedule a follow-up appointment to discuss your progress and any changes in your condition. When would you like to come in for your next appointment?"]
+    },
+    {
+      "tag": "vaccination",
+      "patterns": ["Vaccination information", "COVID-19 vaccine", "Vaccine appointment"],
+      "responses": ["Vaccines are an important part of preventing diseases. I can provide information about available vaccines, including the COVID-19 vaccine, and help you schedule a vaccination appointment if needed."]
+    }
+  ]
+}

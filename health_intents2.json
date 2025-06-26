@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good afternoon"],
+      "responses": ["Hello! Welcome to our hospital. How can I assist you today?", "Hi there! How can I help you?", "Hey! How can I assist you?"],
+      "context": []
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Goodbye", "Bye", "See you later", "Take care"],
+      "responses": ["Goodbye! Have a great day.", "Bye! Take care.", "See you later!"],
+      "context": []
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Appreciate it"],
+      "responses": ["You're welcome!", "Glad I could help.", "No problem!"],
+      "context": []
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "What can you do?", "Assistance"],
+      "responses": ["Sure, I can help you with various queries such as finding doctors, booking appointments, providing general information about the hospital, and more. Feel free to ask!"],
+      "context": []
+    },
+    {
+      "tag": "find_doctor",
+      "patterns": ["Find a doctor", "Doctor availability", "Doctor schedule"],
+      "responses": ["Sure, please provide the specialty or name of the doctor you're looking for."],
+      "context": []
+    },
+    {
+      "tag": "book_appointment",
+      "patterns": ["Book an appointment", "Schedule appointment", "Appointment booking"],
+      "responses": ["Certainly! To book an appointment, please provide your name, contact details, preferred date and time, and reason for the appointment."],
+      "context": []
+    },
+    {
+      "tag": "cancel_appointment",
+      "patterns": ["Cancel appointment", "Appointment cancellation", "Reschedule appointment"],
+      "responses": ["Sure, please provide your name and the details of the appointment you wish to cancel or reschedule."],
+      "context": []
+    },
+    {
+      "tag": "general_info",
+      "patterns": ["Hospital information", "About the hospital", "Location", "Contact details"],
+      "responses": ["Our hospital is located at [address]. We offer a wide range of medical services including emergency care, primary care, surgery, and more. For more information, you can contact us at [phone number] or visit our website."],
+      "context": []
+    },
+    {
+      "tag": "emergency",
+      "patterns": ["Emergency", "Emergency assistance", "Urgent care"],
+      "responses": ["If you are experiencing a medical emergency, please call 911 immediately. Our emergency department is open 24/7 to provide urgent medical care."],
+      "context": []
+    },
+    {
+      "tag": "insurance_info",
+      "patterns": ["Insurance information", "Insurance accepted", "Insurance coverage"],
+      "responses": ["We accept a variety of insurance plans. To find out if your insurance is accepted or to inquire about coverage, please provide your insurance information, and we will assist you further."],
+      "context": []
+    },
+    {
+      "tag": "medical_records",
+      "patterns": ["Access medical records", "Medical history", "Health records"],
+      "responses": ["To access your medical records, please fill out our medical records request form available on our website or contact our medical records department during business hours."],
+      "context": []
+    },
+    {
+      "tag": "prescription_refill",
+      "patterns": ["Prescription refill", "Refill medication", "Renew prescription"],
+      "responses": ["To refill your prescription, please provide the name of the medication and your pharmacy information. We will process your request and notify you when it's ready for pickup."],
+      "context": []
+    }
+  ]
+}
